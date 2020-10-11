@@ -1,0 +1,9 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Not really keen on keeping intellij stuff, but maybe
+# if we want shared project intellij settings
+.idea
