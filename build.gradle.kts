@@ -38,3 +38,7 @@ dependencies {
 subprojects {
     apply(plugin = "org.jlleitschuh.gradle.ktlint") // Version should be inherited from parent
 }
+
+kotlin {
+    explicitApiWarning()
+}
